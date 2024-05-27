@@ -1,0 +1,92 @@
+---
+manufacturer: Ubiquiti
+model: UniFi PDU Pro
+slug: ubiquiti-unifi-pdu-pro
+airflow: front-to-rear
+part_number: USP-PDU-PRO
+comments: |
+  [UniFi PDU Pro](https://store.ui.com/us/en/collections/power-tech/products/usp-pdu-pro)
+
+  Designed to supply power to an entire rack-mounted UniFi system and remotely manage each connection.
+
+  Dimensions: 442.4 x 87.4 x 106 mm (17.4 x 3.4 x 4.2")
+u_height: 2
+is_full_depth: false
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port 2
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port 3
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port 4
+    type: 100base-tx
+    mgmt_only: true
+power-ports:
+  - name: ps1
+    type: iec-60320-c14
+    maximum_draw: 1875
+power-outlets:
+  - name: Port 1
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 2
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 3
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 4
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 5
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 6
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 7
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 8
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 9
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 10
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 11
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 12
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 13
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 14
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 15
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 16
+    type: ubiquiti-smartpower
+    power_port: ps1
+  - name: Port 17
+    type: ubiquiti-smartpower-usbc
+    power_port: ps1
+  - name: Port 18
+    type: ubiquiti-smartpower-usbc
+    power_port: ps1
+  - name: Port 19
+    type: ubiquiti-smartpower-usbc
+    power_port: ps1
+  - name: Port 20
+    type: ubiquiti-smartpower-usbc
+    power_port: ps1
